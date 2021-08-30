@@ -1,0 +1,57 @@
+body{
+    background-color: #EEEE;
+}
+.menuitem:hover{
+  
+   margin-left: 23px;
+   padding-top: 22px;
+   background-color: #ffffff;
+   padding-bottom: 22px;
+   padding-left: 39px;
+   margin-right: 13px; 
+
+}
+.minibox{
+    float: left;
+    color: black;
+    margin-top: 37px;
+    margin-left: 22px;
+    padding-top: 17px;
+    background-color: #ffffff;
+    padding-bottom: 21px;
+    padding-left: 8px;
+    margin-right: 954px;
+}
+.mini2box{
+    float: left;
+    color: black;
+    padding-left: 47px;
+    margin-left: 23px;
+    background-color: #ffffff;
+    margin-top: 7px;
+    margin-right: 861px;
+    padding-bottom: 26px;
+    padding-right: 108px;
+}
+.mexbox{
+    float: left;
+}
+.anothermexbox{
+    margin-left: 339px;
+    width: 77%;
+    padding-top: 21px;
+    background-color: white;
+    color: black;
+    padding-bottom: 17px;
+    float: left;
+    margin-top: -354px;
+    
+    
+}
+
+.textbox{
+    margin-top: 393px;
+    
+    background-color: white;
+    width: 6%;
+}
