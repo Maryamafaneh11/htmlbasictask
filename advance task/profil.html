@@ -1,97 +1,282 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="manprofil.css" type="text/css" rel="stylesheet">
+        
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript">
+            function Toggle(value){
+            switch(value){
+            case 'aboutMe':
+            document.getElementById('aboutMe').style.display="block";
+            document.getElementById('Projects').style.display="none";
+            document.getElementById('Settins').style.display="none";
+            break;
+            case 'Projects':
+            document.getElementById('aboutMe').style.display="none";
+            document.getElementById('Projects').style.display="block";
+            document.getElementById('Settins').style.display="none";
+            break;
+            case 'Settins':
+            document.getElementById('aboutMe').style.display="none";
+            document.getElementById('Projects').style.display="none";
+            document.getElementById('Settins').style.display="block";
+            break;
+            }
+            }
+            
+            </script>
+       
+            
     </head>
     <body>
         <div>
-         <div style="background-color: #00b5ec;margin-left: 25px;width: 1296px;height: 526px;margin-top: 25px;">
-             <img src="C:\Users\User\Downloads\avatar7.png" style="padding-left: 436px; padding-top: 62px;"/>
+         <div class="boximag" >
+             <img src="C:\Users\User\Downloads\avatar7.png" class="imag"  />
             
-             <div style="padding-left: 553px;font-size: 27px;">
+             <div class="labelinimag" >
                  <label>John Deon</label>
          </div>
         
         </div>
 
-         <div class ="menuitem"  style=" margin-left: 23px;padding-top: 22px;background-color: #ffffff;padding-bottom: 22px;padding-left: 39px;margin-right: 29px;">
-             <label style="padding-right:58px;">ABOUT ME</label>
-             <label style="padding-right:58px;">PROJECT</label>
-             <label style="padding-right: 58px;">SETTNGS</label>
+        <div class="menuitem" style="float: left;">
 
-         </div>
+            <div class="label" style="float: left;" onclick="Toggle('aboutMe')">
+                <span >ABOUT ME</span>
+            </div>
+
+            <div class="label"style="float: left;"  onclick="Toggle('Projects')">
+                <span>PROJECTS</span>
+            </div>
+
+            <div class="label"style="float: left;"  onclick="Toggle('Settins')">
+                <span>SETTINGS</span>
+            </div>
+        </div>
+
+         <div id="aboutMe">
            
-         <div class="mexbox">
-            
+         <div class="maxbox">
+            <div class="boxbig1">
          <div class="minibox">
-
-          <label style="padding-right: 12px;font-size: 23px;padding-bottom: 4px;">PERSONAL INFORMATION</label>
+         <di>     
+          <label class="labelminbox">PERSONAL INFORMATION</label>
           <br>
           </div>
           <div>
           <div class="mini2box">
-          <div style="padding-top: 24px;">
-          <label style="padding-left: 2px;font-size: 19px;" >Full Name</label>
+          <div class="labelminibox2">
+          <label  >Full Name</label>
           <br>
-          <label style="padding-left: 2px;font-size: 12px;color: gray;">Johanathan Deo</label>
+          <label class="contantminibox2" >Johanathan Deo</label>
           </div>
 
-          <div style="padding-top: 24px;">
-          <label style="padding-left: 2px;font-size: 19px;">Mobile</label>
+          <div class="labelminibox2">
+          <label >Mobile</label>
           <br>
-          <label style="padding-left: 2px;font-size: 12px;color: gray;">(123) 123 1234</label>
+          <label class="contantminibox2">(123) 123 1234</label>
           </div>
 
-          <div style="padding-top: 24px;">
-          <label style="padding-left: 2px;font-size: 19px;">Email</label>
+          <div class="labelminibox2">
+          <label >Email</label>
           <br>
-          <label style="padding-left: 2px;font-size: 12px;color: gray;">johnathandeon@moltran.com</label>
+          <label class="contantminibox2">johnathandeon@moltran.com</label>
           </div>
           
           
-          <div style="padding-top: 24px;">
-          <label style="padding-left: 2px;font-size: 19px;">Location</label>
+          <div class="labelminibox2">
+          <label >Location</label>
           <br>
-          <label style="padding-left: 2px; font-size: 12px;color: gray;">USA</label>
+          <label class="contantminibox2">USA</label>
            </div>
         </div>
 </div>
+</di>
 
-           </div>
+      <div class="minibox3">
+       <label class="labelsize">LANGUAGES</label>
+      </div>
+
+      <div class="minibox4">
+        <ul class="ulstyle">
+      <li>English</li>
+      <li>France</li>
+      <li>Greek</li>
+      </ul>
+      </div>
+          
+    </div>
+
+
          <div class="anothermexbox">
-         <label style="background-color: white;padding-left: 52px;font-size: 24px;">BIOGRAPHY</label>
+             <div class="labelminibox5">
+         <label  >BIOGRAPHY</label>
          </div>
 
            
-
-                 <div class="textbox">
+                 <div class="textbox3">
                      <label>lorem ipsum is simply dummy text of the printing and typesetting and typesetting industry.
                          printing and typesetting and typesetting industry.
                          lorem ipsum has been the industrys standard dummy text ever since the 15000s ,when an unknown 
                          printer took agallert of typ and scrambled it to make atype specimen book.it has survived not 
                          only five centuries, but also the leap into electronic typesetting , remaining essentially unchanged.
                      </label>
-
                      <br>
-                     <label style="color: black;">
+                     
+                     <br>
+                     <label class="text">
 
                         But also the leap into electronic typesetting, remainig essentially unchanged.
 
                      </label>
-                     
+                     <br> 
+
                      <br>
                       <label>
                           It was popularised in the 1960s,with the release of sheets containing lorem ipsum passages,
                           and more recently with desktop publishing software like aldus pagmark including versions of lorem ipsum.     
                       </label>
 
+                    </div>
 
 
+                    <div class="minibox6">
+                        <label>SKILS</label>
+                    </div>
+
+                    <div class="minibox7">
+                        <label class="floatlabel">Angular JS</label>
+                        <label class="percent"> 60%</label>
+                        <br>
+                     <input type="text" class="labelload">
+                         
+                     <br>
+                         <label class="floatlabel" >JavaScript</label>
+                         <br>
+                         <label class="percent">90%</label>
+                         <br>
+                         <input type="text" class="labelload">
+                        
+                         <br>
+                         <label class="floatlabel" >Wordpress</label>
+                         <br>
+                        
+                         <label class="percent">80%</label>
+                         <br>
+                         <input type="text" class="labelload">    
+
+                         <br>
+                         <label class="floatlabel">HTML & Css3</label>
+                         <br>
+                         <label class="percent">90%</label>
+                        <br>
+                         <input type="text" class="labelload">
+                    </div>
 
     </div>
+</div>
 
 
+</div>
 
+
+<div id="Projects" >
+   <div class="myprject1">
+       <label class="labeloroject">MY PROJECTS</label>
+   </div>
+   <div class="myprject2">
+       <div class="divod">
+       <label class="flooatleft">#</label>
+       <label class="flooatleft">Project Name</label>
+       <label class="flooatleft">  Start Data</label>
+       <label class="flooatleft">  Due Data</label>
+       <label class="flooatleft">Assign</label>
+       </div>
+       <br>
+
+       <br>
+       <div class="diveven"> 
+        <label class="flooatleft">1</label>
+        <label class="flooatleft">Moltran Admin</label>
+        <label class="flooatleft">01/01/2015</label>
+        <label class="flooatleft">07/05/2015</label>
+        <label class="flooatleft">Coderthemes</label>
+       </div>
+       <br>
+
+       <br>
+       <div class="divod">
+        <label class="flooatleft">2</label>
+        <label class="flooatleft">Moltran Frontend</label>
+        <label class="flooatleft">01/01/2015</label>
+        <label class="flooatleft">07/05/2015</label>
+        <label class="flooatleft">Coderthemes</label>
+       </div>
+       <br>
+
+       <br>   
+       <div class="diveven">
+        <label class="flooatleft">3</label>
+        <label class="flooatleft">Moltran Admin</label>
+        <label class="flooatleft">01/01/2015</label>
+        <label class="flooatleft">07/05/2015</label>
+        <label class="flooatleft">Coderthemes</label>
+       </div>
+
+   </div>
+</div>
+
+
+<div id="Settins">
+    <div class="setminibox">
+        <label class="albbsettins">EDIT PROFILE</label>
+
+        </div>
+
+       <div class="settinsbox">
+       
+       <div class="class1">
+            <label class="labeltext"> Name</label>
+            <br>
+            <input type="text" class="textbox">
+        </div>
+
+        <div class="class1">
+            <label class="labeltext"> Email</label>
+            <br>
+            <input type="text" class="textbox">
+        </div>
+
+        <div class="class1">
+            <label class="labeltext"> UserName</label>
+            <br>
+            <input type="text" class="textbox">
+        </div>
+
+        <div class="class1">
+            <label class="labeltext"> Password</label>
+            <br>
+            <input type="text" class="textbox">
+        </div>
+
+        <div class="class1">
+            <label class="labeltext"> Re-Password</label>
+            <br>
+            <input type="text" class="textbox">
+        </div>
+
+        <div class="class1">
+            <label class="labeltext1"> About Me</label>
+            <br>
+            <input type="text" class="textbox1">
+        </div>
+
+        <div>
+            <button class="botnsave">Save Change</button>
+        </div>
+        </div>
+
+       </div>
 </div>
     </body>
 </html>

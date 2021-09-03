@@ -1,6 +1,342 @@
+body{
+background-color:#F0F0F0;
+
+}
+
+.boximag{
+    background-color: #00b5ec;
+    margin-left: 25px;
+    width: 1296px;
+    height: 472px;
+    margin-top: 25px;
+}
+
+.imag{
+    margin-left: 530px;
+    width: 260px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 101px;
+}
+
+.labelinimag{
+    padding-left: 597px;
+    font-size: 27px;
+}
+
+.menuitem{
+    width: 1257px;
+    margin-left: 25px;
+    padding-top: 7px;
+    background-color: #ffffff;
+    padding-bottom: 7px;
+    padding-left: 39px;
+    margin-right: 12px;
+}
+
+.label{
+    padding-left: 71px;
+    padding-right: 71px;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.label:hover{
+   background-color:  #F0F0F0;
+}
+
+.maxbox{
+    height: 723px;
+    background-color: #F0F0F0;
+    margin-left: 24px;
+    margin-top: 99px;
+    width: 313px;
+}
+
+.minibox{
+    clear: left;
+    padding-left: 28px;
+    background-color: white;
+    width: 254px;
+    height: 49px;
+    padding-right: 28px;
+    padding-top: 19px;
+}
+
+
+.labelminbox{
+   
+    font-size: 19px;
+  
+}
+
+.mini2box{
+    background-color: white;
+    margin-top: 3px;
+    width: 310px;
+    padding-bottom: 34px;
+}
+
+.divminibox2s{
+    padding-top: 24px;
+    padding-left: 25px;
+}
+
+
+.labelminibox2{
+    padding-left: 28px;
+    padding-top: 24px;
+   
+    font-size: 16px;
+}
+
+.contantminibox2{
+    padding-left: 2px;
+    font-size: 12px;
+    color: gray;
+}
+
+.minibox3{
+    padding-bottom: 21px;
+    background-color: white;
+    margin-top: 48px;
+    padding-top: 14px;
+    padding-left: 22px;
+}
+
+.labelsize{
+  
+font-size: 20px;
+}
+
+
+.ulstyle{
+    color: gray;
+    font-size: 18px;
+}
+
+.minibox4{
+
+    background-color: white;
+    padding-bottom: 46px;
+    padding-top: 16px;
+    margin-top: 3px;
+    padding-left: 17px;
+}
+
+
+.anothermexbox{
+    width: 940px;
+    margin-top: 18px;
+    margin-left: 357px;
+  
+}
+
+.labelminibox5{
+    padding-left: 25px;
+    background-color: white;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    
+}
+
+.text{
+    color: black;
+}
+
+.textbox3{
+    margin-top: 3px;
+    background-color: white;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 27px;
+}
+
+.minibox6{
+    margin-top: 46px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 17px;
+    font-size: 20px;
+}
+
+
+.boxbig1{
+    float:left;
+}
+
+.minibox7{
+
+    padding-left: 35px;
+    width: 905px;
+    background-color: white;
+    height: 327px;
+    margin-top: 3px;
+    padding-top: 21px;
+    font-size: 14px;
+}
+
+#file{
+    width: 778px;
+}
+
+.labelload{
+    width: 785px;
+    height: 18px;
+    margin-top: 14px;
+    border-radius: 6px;
+    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    margin-bottom: 12px;
+}
+
+.floatlabel{
+    float: left;
+}
+
+.percent{
+    float:right ;
+    padding-right: 90px;
+}
+
+#Projects{
+    display: none;
+}
+
+.myprject1{
+    background-color: white;
+    margin-top: 91px;
+    width: 1294px;
+    margin-left: 25px;
+    height: 45px;
+    padding-top: 19px;
+}
+
+
+.labeloroject{
+    font-size: 22px;
+    margin-left: 28px;
+}
+
+.myprject2{
+    width: 1293px;
+    background-color: white;
+    height: 282px;
+    margin-left: 26px;
+    margin-top: 5px;
+    padding-top: 22px;
+}
+
+.divod{
+    background-color: white;
+    
+    margin-left: 6px;
+    height: 9px;
+}
+
+.divod:hover{
+    background-color: white
+}
+
+.diveven{
+    background-color: #F0F0F0;
+    padding-top: 22px;
+    margin-left: 2px;
+    height: 34px;
+}
+
+.diveven:hover{
+    background-color: white;
+}
+ 
+.flooatleft{
+    float: left;
+    padding-left: 6px;
+    padding-right: 171px;
+}
+
+
+#Settins{
+    display: none;
+}
+
+
+.settinsbox{
+    background-color: white;
+    margin-top: 4px;
+    width: 1298px;
+    margin-left: 24px;
+    height:660px ;
+}
+
+.class1{
+    margin-left: 44px;
+    padding-top: 22px;
+}
+
+.labeltext{
+    font-size: 18px;
+}
 
 .textbox{
+    border-color: gray;
+    margin-top: 3px;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-left: 27px;
+    width: 860px;
+    border-radius: 6px ;
+    background-color: ghostwhite;
+}
 
-    clear: left;
+.textbox:hover{
+    background-color: white;
+}
 
+.textbox1{
+    border-color: gray;
+    margin-top: 3px;
+    padding-bottom: 67px;
+    padding-top: 10px;
+    padding-left: 27px;
+    width: 860px;
+    border-radius: 6px ;
+    background-color: ghostwhite;
+}
+
+.textbox1:hover{
+    background-color: white;
+}
+
+.botnsave{
+    margin-top: 32px;
+    border-color: #357ebd;;
+    border: 1px solid;
+    margin-left: 95px;
+    width: 140px;
+    height: 35px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #428bca;;
+}
+
+.botnsave:hover{
+    background-color: #3276b1;
+    border-color: #285e8e;
+
+}
+
+.setminibox{
+    background-color: white;
+    margin-top: 108px;
+    width: 1296px;
+    margin-left: 25px;
+    height: 52px;
+    padding-top: 21px;
+}
+
+.albbsettins{
+    font-size: 22px;
+    margin-left: 28px;
 }
